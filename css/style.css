@@ -1,0 +1,298 @@
+body, div, p, ul, li, ol, dl, dd, dt, h1, h2, h3, h4, h5, h6, span, i, input, img, a, button, select, table, tr, th, td, label, textarea {
+	padding                     : 0;
+	margin                      : 0;
+	-webkit-appearance          : none;
+	-webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+	outline                     : none;
+	-webkit-overflow-scrolling  : touch;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size   : 100%;
+	font-weight : normal;
+}
+li {
+	list-style : none;
+}
+i {
+	font-style : normal;
+}
+a {
+	text-decoration : none;
+}
+img {
+	border         : 0 none;
+	vertical-align : top;
+}
+.clearfix {
+	*zoom : 1;
+}
+.clearfix:after {
+	content    : ".";
+	height     : 0;
+	visibility : hidden;
+	display    : block;
+	clear      : both;
+}
+body,
+button {
+	font-size   : 14rem;
+	font-family : "microsoft yahei";
+}
+body {
+	position : relative;
+	overflow : hidden;
+}
+.body {
+	position        : relative;
+	background-size : 100% 100%;
+	overflow        : hidden;
+	background      : white
+}
+body {
+	background  : #eeeeee;
+	font-family : Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size   : 100rem;
+	color       : #000000;
+	margin      : 0;
+	padding     : 0;
+}
+.music_pause {
+	animation-play-state         : paused;
+	-webkit-animation-play-state : paused; /* Safari 和 Chrome */
+}
+.loading {
+	width            : 100%;
+	height           : 100%;
+	position         : absolute;
+	z-index          : 999999;
+	background-color : #f0fdff;
+	display          : none;
+}
+.loadingtext {
+	width      : 100%;
+	position   : absolute;
+	left       : 0;
+	top        : 5.6rem;
+	text-align : center;
+	font-size  : 0.24rem;
+	color      : #585858;
+	display    : none;
+}
+.loading_gif {
+	position : absolute;
+	width    : 2.2rem;
+	margin   : 0 auto;
+	top      : 5.8rem;
+	left     : 2.65rem;
+	display  : none;
+}
+.hp .loading_gif {
+	position : absolute;
+	width    : 2.2rem;
+	margin   : 0 auto;
+	top      : 2.37rem;
+	left     : 5.655rem;
+}
+.hp .tishi {
+	display : none;
+}
+.hp .tishi2 {
+	display    : table;
+	margin     : 0 auto;
+	font-size  : 0.26rem;
+	margin-top : 3.3rem;
+	opacity    : 0.8;
+}
+.tishi {
+	display    : table;
+	margin     : 0 auto;
+	font-size  : 0.16rem;
+	margin-top : 6.8rem;
+	/* color: rgba(255, 255, 255, 0.53); */
+	/*display    : none;*/
+}
+.tishi2 {
+	display    : table;
+	margin     : 0 auto;
+	font-size  : 0.20rem;
+	margin-top : 1.7rem;
+	opacity    : 0.8;
+	display    : none;
+}
+.music {
+	position : absolute;
+	width    : 0.62rem;
+	top      : 0.35rem;
+	right    : 0.3rem;
+	/*animation         : music 5s infinite linear;*/
+	/*-webkit-animation : music 5s infinite linear;*/
+	z-index  : 99999;
+}
+.musicup {
+	position                 : absolute;
+	width                    : 0.6rem;
+	bottom                   : 0.1rem;
+	right                    : 0.3rem;
+	z-index                  : 99999;
+	transform-origin         : 80% 77.5%;
+	-webkit-transform-origin : 80% 77.5%;
+	transform                : rotate(-3deg);
+}
+@keyframes music {
+	from {
+		transform         : rotate(-360deg);
+		-webkit-transform : rotate(-360deg);
+	}
+	to {
+		transform         : rotate(0deg);
+		-webkit-transform : rotate(0deg);
+	}
+}
+@-webkit-keyframes music {
+	from {
+		transform         : rotate(-360deg);
+		-webkit-transform : rotate(-360deg);
+	}
+	to {
+		transform         : rotate(0deg);
+		-webkit-transform : rotate(0deg);
+	}
+}
+.music_pause {
+	animation-play-state : paused;
+	/*-webkit-animation-play-state : paused; !* Safari 和 Chrome *!*/
+	-webkit-animation    : none !important;
+}
+html, body {
+	position : relative;
+	height   : 100%;
+}
+body {
+	background  : #fff;
+	font-family : Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size   : 14rem;
+	color       : #000000;
+	margin      : 0;
+	padding     : 0;
+}
+.swiper-container {
+	position : absolute;
+	left     : 0;
+	top      : 0;
+	width    : 100%;
+	height   : 100%;
+}
+.swiper-slide {
+	font-size : 18rem;
+	/*background: #ffffff;*/
+}
+.swiper-container-v {
+	/*background: #eeeeee;*/
+}
+.main {
+	display : none;
+}
+.swiper-container-v {
+	width      : 100%;
+	height     : 100%;
+	background : transparent;
+	overflow   : hidden;
+}
+.swiper-container-v .swiper-slide {
+	font-size         : 0.26rem;
+	width             : 100%;
+	height            : 14.48rem;
+	position          : relative;
+	left              : 0;
+	top               : 50%;
+	transform         : translateY(-50%);
+	-webkit-transform : translateY(-50%);
+}
+.swiper-container-h .swiper-slide {
+	width   : 100%;
+	height  : 100%;
+	z-index : 90;
+}
+#swiper3 .swiper-slide {
+	width   : 100%;
+	height  : 100%;
+	z-index : 90;
+}
+.content {
+	width    : 100%;
+	height   : 100%;
+	position : absolute;
+	left     : 0;
+	top      : 0;
+	overflow : hidden;
+}
+#canvas {
+	width    : 100%;
+	/*height     : 1800px; */
+	/*position : relative;*/
+	/*left     : 0;*/
+	/*top      : 0;*/
+	display  : block;
+	/*background : #feefff;*/
+}
+.videobox {
+	width            : 100%;
+	height           : 100%;
+	position         : absolute;
+	left             : 0;
+	top              : 0;
+	background-color : rgba(0, 0, 0, 0.7);
+	z-index          : 1000;
+	/*background-image    : url("../images/videotext3.png");*/
+	/*background-repeat   : no-repeat;*/
+	/*background-position : 50% 10%;*/
+	/*background-size     : 70%;*/
+	display          : none;
+}
+.vtext {
+	display    : block;
+	width      : 70%;
+	margin     : 0 auto;
+	margin-top : 0.72rem;
+}
+#video {
+	width             : 7.5rem;
+	height            : 4.21875rem;
+	position          : absolute;
+	left              : 0;
+	top               : 50%;
+	transform         : translateY(-50%);
+	-webkit-transform : translateY(-50%);
+	background        : black;
+}
+.sharebox {
+	width      : 100%;
+	height     : 100%;
+	position   : absolute;
+	left       : 0;
+	top        : 0;
+	z-index    : 999999;
+	background : rgba(0, 0, 0, 0.7);
+	display    : none;
+}
+.fximg {
+	width    : 6.2rem;
+	position : absolute;
+	top      : 0.1rem;
+	right    : 0.1rem;
+}
+.back {
+	width    : 1.04rem;
+	position : absolute;
+	left     : 3.23rem;
+	top      : 9.6rem;
+}
+/*iPhoneX的适配*/
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+	.back {
+		width    : 1.04rem;
+		position : absolute;
+		left     : 3.23rem;
+		top      : 11.6rem;
+	}
+}
